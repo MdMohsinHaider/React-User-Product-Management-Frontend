@@ -1,0 +1,39 @@
+.container { 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.3); /* Semi-transparent white */
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Soft shadow */
+    border: 1px solid rgba(255, 255, 255, 0.2); /* Light border for contrast */
+    /* backdrop-filter: blur(10px); Glassmorphism Effect */
+}
+
+.container h1 {
+    width: 80%;
+    color: #007BFF;
+    font-size: 28px; /* Larger font */
+    font-weight: bold;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2); /* Subtle text shadow */
+}
+
+.container button {
+    width: auto;
+    padding: 12px 20px;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 8px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    color: white;
+    background: linear-gradient(135deg, #007BFF, #0056b3); /* Gradient button */
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    box-shadow: inset 0 0 10px rgba(255, 255, 255, 0.2); /* Inner glow effect */
+}
+
+.container button:hover {
+    background: linear-gradient(135deg, #0056b3, #004199); /* Darker on hover */
+    box-shadow: inset 0 0 15px rgba(255, 255, 255, 0.3);
+}
