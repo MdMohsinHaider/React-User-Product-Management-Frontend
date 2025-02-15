@@ -4,7 +4,9 @@ import CreateUser from "../pages/CreateUser"
 import AllUser from "../pages/AllUser"
 import Edit from '../pages/Edit'
 import Home from '../pages/Home'
+import CreateProduct from "../pages/CreateProduct"
 import Product from "../pages/Product"
+import EditProduct from "../pages/EditProduct" 
 
 
 export let router = createBrowserRouter([
@@ -29,8 +31,16 @@ export let router = createBrowserRouter([
                 element:<Edit/>
             },
             {
+                path:"/createproduct",
+                element:<CreateProduct/>
+            },
+            {
                 path:"/allproduct",
                 element:<Product/>
+            },
+            {
+                path:"/editProduct/:id",
+                element:<EditProduct/>
             }
         ]
 
